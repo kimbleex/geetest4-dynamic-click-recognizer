@@ -1,11 +1,3 @@
-"""
-Author: Xu JunLiang
-Created: 2026-07-27
-File: val_geetest4.py
-
-Description: 通过 GeeTest4 动态点选验证码
-"""
-
 from __future__ import annotations
 
 from dataclasses import dataclass
