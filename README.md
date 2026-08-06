@@ -1,11 +1,3 @@
----
-title: OpenCV 实现 GeeTest4 动态点选验证码识别
-published: 2026-08-01 00:00:00
-description: 使用 OpenCV 对目标图标与 2×2 候选区域进行分割、归一化，并融合 pHash、Dice 系数和连通域结构特征完成匹配。
-tags: [Python, OpenCV, Playwright]
-category: Programming
----
-
 最近在一个浏览器自动化项目中遇到了一类 GeeTest4 动态点选验证码：页面上方给出一个目标图标，下方的背景区域里排列着 4 个候选图标，需要找出与目标一致的那一个并点击。
 
 这类图片不适合直接用固定坐标，因为**候选项的位置和内容会动态变化**；。
